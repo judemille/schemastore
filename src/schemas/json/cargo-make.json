@@ -28,6 +28,11 @@
           "description": "If true, the external makefile is optional and does not need to exist",
           "type": "boolean",
           "default": true
+        },
+        "relative": {
+          "description": "Where the path is relative to",
+          "enum": ["git", "crate", "workspace"],
+          "default": null
         }
       }
     },
